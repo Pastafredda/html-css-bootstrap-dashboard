@@ -1,0 +1,46 @@
+/* Macrostruttura */
+header{
+    height: 100px;
+    width: 100%;
+}
+
+.upper{
+    display: flex;
+}
+
+.side{
+    width: 160px;
+    height: calc(100vh - 100px);
+}
+
+main{
+    width: calc(100% - 160px);
+}
+
+@media screen and (max-width:992px) {
+    .side{
+        width: 80px;
+    }
+
+    main{
+        width: calc(100% - 80px);
+    }
+    
+}
+/* Fine macrostruttura */
+
+
+
+/* debug */
+
+header{
+    background-color: brown;
+}
+
+.side{
+    background-color:darkslategray;
+}
+
+main{
+    background-color: blue;
+}
