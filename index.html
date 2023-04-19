@@ -74,11 +74,13 @@
         </div>
 
         <main>
+
+            <!-- parte del main superiore -->
             <div class="main-header">
                 <div>
                     <div class="container-fluid">
-                        <div class="row py-4">
-                            <div class="col-3 col-lg-6">
+                        <div class="row flex-column flex-md-row py-4">
+                            <div class="col col-lg-6 order-2 order-md-1">
                                <div class="titolo">
                                 Boolean 
                                 <span class="boolean">Piano Blaze</span>
@@ -86,20 +88,20 @@
                                <span class="boolean">3 app</span>
                                <i class="fa-solid fa-angles-right"></i>
                                <span class="boolean d-xl-none"><i class="fa-solid fa-plus"></i></span>
-                               <span class="boolean d-none d-xl-inline-block">Boolean mobile app</span>
-                               <span class="boolean d-none d-xl-inline-block">Boolean web app</span>
-                               <span class="boolean d-none d-xl-inline-block">Boolean blog app</span>
-
+                               <span class="boolean d-none d-lg-inline-block">Boolean mobile app</span>
+                               <span class="boolean d-none d-lg-inline-block">Boolean web app</span>
+                               <span class="boolean d-none d-lg-inline-block">Boolean blog app</span>
                             </div>
-                            <div class="col-4">
+                            <div class="col col-lg-3 order-3 order-md-2">
                                 <div class="studenti">
                                     Studenti online negli ultimi 30 minuti
                                     <h3>125</h3>
                                 </div>
-                                
                             </div>
+
                             <!-- nuovo studente con tasto offcanvas e form -->
-                            <div class="col">
+                            <div class="col order-1 order-md-3">
+                                <span class="nuovo">Nuovo studente</span>
                                 <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-plus"></i></button>
                                 <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
                                 <div class="offcanvas-header">
@@ -108,25 +110,25 @@
                                 </div>
                                 <div class="offcanvas-body">
                                     <form class="row g-3">
-                                        <div class="col-6">
+                                        <div class="col-md-6">
                                           <label for="inputEmail4" class="form-label">Nome</label>
                                           <input type="nome" class="form-control" id="inputEmail4">
                                         </div>
-                                        <div class="col-6">
+                                        <div class="col-md-6">
                                           <label for="inputPassword4" class="form-label">Cognome</label>
                                           <input type="cognome" class="form-control" id="inputPassword4">
                                         </div>
-                                        <div class="col-6">
-                                            <label for="inputEmail4" class="form-label">Email</label>
+                                        <div class="col-md-6">
+                                            <label  for="inputEmail4" class="form-label">Email</label>
                                             <input type="email" class="form-control" id="inputEmail4">
                                           </div>
-                                          <div class="col-6">
+                                          <div class="col-md-6">
                                             <label for="inputPassword4" class="form-label">Password</label>
                                             <input type="password" class="form-control" id="inputPassword4">
                                           </div>
                                         <div class="col-12">
                                           <label for="inputAddress2" class="form-label">Indirizzo</label>
-                                          <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                                          <input type="text" class="form-control" id="inputAddress2">
                                         </div>
                                         <div class="col-md-6">
                                           <label for="inputCity" class="form-label">Città</label>
@@ -143,7 +145,7 @@
                                           <label for="inputZip" class="form-label">CAP</label>
                                           <input type="text" class="form-control" id="inputZip">
                                         </div>
-                                        <div class="mb-3">
+                                        <div class="md-3">
                                             <label for="formFile" class="form-label">Foto</label>
                                             <input class="form-control" type="file" id="formFile">
                                           </div>
@@ -151,12 +153,13 @@
                                           <div class="form-check">
                                             <input class="form-check-input" type="checkbox" id="gridCheck">
                                             <label class="form-check-label" for="gridCheck">
-                                              Check me out
+                                              Seleziona per proseguire
                                             </label>
                                           </div>
                                         </div>
                                         <div class="col-12">
-                                          <button type="submit" class="btn btn-primary">Sign in</button>
+                                          <button type="submit" class="btn btn-primary">Salva</button>
+                                          <input class="btn btn-primary btn-warning" type="reset" value="Svuota">
                                         </div>
                                       </form>
                                 </div>
