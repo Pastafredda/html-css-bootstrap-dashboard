@@ -1,4 +1,8 @@
 /* Macrostruttura */
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
 header{
     width: 100%;
     padding: 20px 0;
@@ -97,12 +101,32 @@ main{
     color: #ff8600;
 }
 
+/* side */
+
+.side{
+    background-color:#002436;
+}
+
+.main-nav{
+    height: 100%;
+}
+
+.main-nav a{
+    color: white;
+    font-size: 20px;
+   
+}
+
+.main-nav a:hover{
+    background-color: #5c5753;
+}
+
+/* inizio parte principale */
+
 
 /* debug */
 
-.side{
-    background-color:darkslategray;
-}
+
 
 main{
     background-color: blue;
