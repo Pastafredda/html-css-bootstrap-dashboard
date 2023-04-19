@@ -123,11 +123,76 @@ main{
 
 /* inizio parte principale */
 
+.classi-title{
+    background-color: #f7f7f6;
+    border-bottom: 2px solid #cfccc6;
+    padding: 8px;
 
-/* debug */
+}
+
+.classi-title span{
+    font-size: 26px;
+    padding: 12px;
+}
+
+.classi-menu{
+    font-weight: bold;
+    padding: 12px;
+    font-size: 14px;
+}
 
 
+.avatar{
+    height: 24px;
+}
 
-main{
-    background-color: blue;
+.avatar img{
+    max-height: 100%;
+    margin-right: 10px;
+}
+
+.classi{
+    font-weight: lighter;
+}
+
+.stato{
+    color: white;
+    font-size: 14px;
+    padding: 2px 0;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.g{
+    background-color: #008653
+}
+
+.y{
+    background-color: #ffbf00;
+}
+
+.r{
+    background-color: #f42237;
+}
+
+.fa-pencil{
+    color: #697275;
+    border: 2px solid #697275 ;
+    border-radius: 6px;
+    padding: 4px;
+}
+
+.fa-trash-can{
+    color: #697275;
+    border: 2px solid #697275 ;
+    border-radius: 6px;
+    padding: 4px;
+}
+
+.fa-pencil:hover{
+    background-color: #b9b9b9b9;
+}
+
+.fa-trash-can:hover{
+    background-color: #b9b9b9b9;
 }
