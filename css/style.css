@@ -20,6 +20,8 @@ header{
 
 main{
     width: calc(100% - 160px);
+    height: calc(100vh - 80px);
+    overflow: auto;
 }
 
 @media screen and (max-width:992px) {
@@ -122,6 +124,47 @@ main{
 }
 
 /* inizio parte principale */
+
+.main-header{
+    background-color: #0071e6;
+}
+
+.titolo{
+    color: white;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.fa-angles-right{
+    color: white;
+    font-size: 14px;
+}
+
+.boolean{
+    font-size: 12px;
+    color: white;
+    border-radius: 20px;
+    padding: 4px 8px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.studenti{
+    color: white;
+}
+
+.studenti h3{
+    margin-top: 14px;
+}
+
+.offcanvas.offcanvas-end{
+    width: 50%;
+}
+
+@media screen and (min-width:) {
+    
+}
+
+/* sezione classi */
 
 .classi-title{
     background-color: #f7f7f6;
