@@ -107,15 +107,29 @@ main{
 
 .side{
     background-color:#002436;
+    background-image: url(/img/sidebar-bg.png);
+}
+
+.side-background{
+    width: 100%;
+}
+
+.side-background img{
+    max-width: 100%;
 }
 
 .main-nav{
     height: 100%;
 }
 
+.main-nav li{
+    width: 100%;
+    text-align: center;
+}
+
 .main-nav a{
     color: white;
-    font-size: 20px;
+    font-size: 18px;
    
 }
 
@@ -181,7 +195,7 @@ main{
 }
 
 .classi-title span{
-    font-size: 26px;
+    font-size: 24px;
     padding: 12px;
 }
 
@@ -245,4 +259,34 @@ main{
 
 .fa-trash-can:hover{
     background-color: #b9b9b9b9;
+}
+
+/* f.a.q. */
+
+.faq {
+    font-size: 14px;
+}
+
+.accordion-button{
+    font-size: 16px;
+}
+
+/* todo */
+
+.todo{
+    font-size: 14px;
+}
+
+/* grafico */
+
+.grafico{
+    width: 100%;
+}
+
+.grafico img{
+    max-width: 100%;
+}
+
+.utenti{
+    font-size: 14px;
 }
